@@ -24,3 +24,8 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+.menus li:hover{
+    color: red;
+    transition: .3s;
+}
