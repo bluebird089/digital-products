@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: black;
+    padding: 20px 50px;
+}
+
+.logo-image{
+    width: 250px;
+}
