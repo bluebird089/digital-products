@@ -29,3 +29,17 @@
     color: red;
     transition: 0.3s;
 }
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86vh;
+    padding: 0px 50px;
+    background-image: url("../images/background.png"), linear-gradient(45deg, black, rgb(66, 66, 66));
+    color: white;
+}
+
+.banner-image{
+    width: 500px;
+}
