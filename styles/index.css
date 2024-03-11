@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: black;
     padding: 20px 50px;
     color: white;
@@ -13,11 +13,11 @@
     align-items: center;
 }
 
-.logo-image{
+.logo-image {
     width: 250px;
 }
 
-.menus{
+.menus {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -25,21 +25,47 @@
     cursor: pointer;
 }
 
-.menu-item:hover{
+.menu-item:hover {
     color: red;
     transition: 0.3s;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 86vh;
     padding: 0px 50px;
-    background-image: url("../images/background.png"), linear-gradient(45deg, black, rgb(66, 66, 66));
+    background-image: url("../images/background.png"),
+        linear-gradient(45deg, black, rgb(66, 66, 66));
     color: white;
 }
 
-.banner-image{
+.banner-image {
     width: 500px;
+}
+
+.page-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.page-description {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.explore-button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    background-color: rgb(192, 0, 0);
+    transition: 0.3s;
 }
